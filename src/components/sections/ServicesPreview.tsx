@@ -113,7 +113,7 @@ export function ServicesPreview() {
       id: "cooking-classes",
       title: t.home.services.cookingClasses.title,
       description: t.home.services.cookingClasses.description,
-      image: "/images/services/bespoke-menus.jpg",
+      image: "/images/services/cooking-classes.jpg",
       href: "/experiences#cooking-classes",
     },
   ];

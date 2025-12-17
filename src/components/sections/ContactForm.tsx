@@ -492,14 +492,24 @@ export function ContactForm() {
               </Typography>
               <p className="font-[family-name:var(--font-inter)] text-[var(--color-carbon)]/70">
                 {t.contact.direct.serviceAreas.description
-                  .replace("{montevideo}", "")
-                  .replace("{maldonado}", "")
-                  .split("  ")
+                  .split("{montevideo}")
                   .map((part, i) => (
                     <span key={i}>
-                      {part}
-                      {i === 0 && <span className="text-[var(--color-gold)]">Montevideo</span>}
-                      {i === 1 && <span className="text-[var(--color-gold)]">Maldonado</span>}
+                      {i === 0 ? part : (
+                        <>
+                          <span className="text-[var(--color-gold)]">Montevideo</span>
+                          {part.split("{maldonado}").map((subPart, j) => (
+                            <span key={j}>
+                              {j === 0 ? subPart : (
+                                <>
+                                  <span className="text-[var(--color-gold)]">Maldonado</span>
+                                  {subPart}
+                                </>
+                              )}
+                            </span>
+                          ))}
+                        </>
+                      )}
                     </span>
                   ))}
               </p>

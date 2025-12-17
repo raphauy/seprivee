@@ -48,7 +48,7 @@ export async function submitContactForm(
     const { error } = await resend.emails.send({
       from: `SePrivée <${fromEmail}>`,
       //to: ["hello@seprivee.com"],
-      to: ["rapha.uy@gmail.com"],
+      to: ["alesotohof@gmail.com"],
       //cc: ["alesotohof@gmail.com"],
       bcc: ["rapha.uy@rapha.uy"],
       replyTo: data.email,

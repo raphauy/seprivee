@@ -27,7 +27,7 @@ const experienceKeys: { id: string; key: ExperienceKey; image: string }[] = [
   {
     id: "cooking-classes",
     key: "cookingClasses",
-    image: "/images/services/bespoke-menus.jpg",
+    image: "/images/services/cooking-classes.jpg",
   },
 ];
 
