@@ -86,7 +86,7 @@ export function Header({ variant = "transparent" }: HeaderProps) {
                 <button
                   onClick={() => setLocale("es")}
                   className={cn(
-                    "font-[family-name:var(--font-montserrat)] text-xs tracking-wider transition-colors",
+                    "font-[family-name:var(--font-montserrat)] text-xs tracking-wider transition-colors cursor-pointer",
                     locale === "es"
                       ? "text-[var(--color-gold)]"
                       : "text-[var(--color-stone)] hover:text-[var(--color-pearl)]"
@@ -98,7 +98,7 @@ export function Header({ variant = "transparent" }: HeaderProps) {
                 <button
                   onClick={() => setLocale("en")}
                   className={cn(
-                    "font-[family-name:var(--font-montserrat)] text-xs tracking-wider transition-colors",
+                    "font-[family-name:var(--font-montserrat)] text-xs tracking-wider transition-colors cursor-pointer",
                     locale === "en"
                       ? "text-[var(--color-gold)]"
                       : "text-[var(--color-stone)] hover:text-[var(--color-pearl)]"
@@ -111,7 +111,7 @@ export function Header({ variant = "transparent" }: HeaderProps) {
 
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden relative z-10 w-10 h-10 flex flex-col justify-center items-center gap-1.5"
+              className="lg:hidden relative z-10 w-10 h-10 flex flex-col justify-center items-center gap-1.5 cursor-pointer"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={isMobileMenuOpen}
@@ -183,7 +183,7 @@ export function Header({ variant = "transparent" }: HeaderProps) {
             <button
               onClick={() => setLocale("es")}
               className={cn(
-                "font-[family-name:var(--font-montserrat)] text-sm tracking-wider transition-colors",
+                "font-[family-name:var(--font-montserrat)] text-sm tracking-wider transition-colors cursor-pointer",
                 locale === "es"
                   ? "text-[var(--color-gold)]"
                   : "text-[var(--color-stone)] hover:text-[var(--color-pearl)]"
@@ -195,7 +195,7 @@ export function Header({ variant = "transparent" }: HeaderProps) {
             <button
               onClick={() => setLocale("en")}
               className={cn(
-                "font-[family-name:var(--font-montserrat)] text-sm tracking-wider transition-colors",
+                "font-[family-name:var(--font-montserrat)] text-sm tracking-wider transition-colors cursor-pointer",
                 locale === "en"
                   ? "text-[var(--color-gold)]"
                   : "text-[var(--color-stone)] hover:text-[var(--color-pearl)]"

@@ -305,6 +305,18 @@ body {
   outline-offset: 2px;
 }
 
+/* ========================================
+   INTERACTIVE ELEMENTS
+   ======================================== */
+
+button,
+select,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  cursor: pointer;
+}
+
 /* Skip link for accessibility */
 .skip-link {
   position: absolute;
