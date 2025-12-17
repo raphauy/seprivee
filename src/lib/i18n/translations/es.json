@@ -1,0 +1,373 @@
+{
+  "nav": {
+    "experiences": "Experiencias",
+    "menus": "Menús",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Studio Dining & Events",
+      "title": "Gastronomía privada redefinida",
+      "subtitle": "Experiencias culinarias a medida en la comodidad de tu hogar. Cenas íntimas, celebraciones y eventos diseñados con precisión y dedicación en Montevideo y Maldonado.",
+      "cta": "Descubrí Nuestras Experiencias"
+    },
+    "intro": {
+      "tagline": "Nuestra Filosofía",
+      "title": "Donde el hogar se convierte en escenario",
+      "description1": "SePrivée es un estudio dedicado a diseñar experiencias culinarias en espacios privados. Creemos que los encuentros más significativos suceden en casa — en espacios que guardan historias, recuerdos y sentido de pertenencia.",
+      "description2": "Llevamos el restaurante a tu hogar, creando momentos donde la cocina excepcional se encuentra con la calidez de tu propio espacio."
+    },
+    "services": {
+      "tagline": "Lo Que Hacemos",
+      "title": "Experiencias diseñadas para vos",
+      "privateDining": {
+        "title": "Cenas Privadas",
+        "description": "Cenas íntimas para hasta 30 invitados, diseñadas desde el menú hasta el mise en place."
+      },
+      "curatedEvents": {
+        "title": "Eventos Curados",
+        "description": "Celebraciones que cuentan una historia, desde el concepto hasta el último plato."
+      },
+      "sushi": {
+        "title": "Experiencia Sushi",
+        "description": "Omakase exclusivo en tu mesa, con los mejores ingredientes de temporada."
+      },
+      "cookingClasses": {
+        "title": "Clases de Cocina",
+        "description": "Sesiones prácticas para dominar técnicas y elevar tus habilidades culinarias."
+      }
+    },
+    "cta": {
+      "tagline": "¿Listo para Comenzar?",
+      "title": "Creemos tu experiencia",
+      "description": "Cada experiencia SePrivée comienza con una conversación. Contanos sobre tu ocasión, tus invitados y tu visión — nosotros nos encargamos del resto.",
+      "button": "Contactanos",
+      "locations": "En Montevideo y Maldonado"
+    }
+  },
+  "experiences": {
+    "hero": {
+      "tagline": "Nuestras Experiencias",
+      "title": "Cada experiencia es única",
+      "description": "Diseñamos formatos y menús a medida, adaptados al contexto, el espacio y las personas que se reúnen. Cada experiencia SePrivée está creada con intención, sensibilidad y precisión."
+    },
+    "list": {
+      "tagline": "Experiencia",
+      "privateDining": {
+        "title": "Cenas Privadas",
+        "description": "Cenas privadas en hogares o espacios, diseñadas desde el concepto hasta la ejecución. Menús a medida, servicio atento y una experiencia completa.",
+        "details": [
+          "Cenas íntimas para 6-30 invitados",
+          "Diseño de menú personalizado",
+          "Servicio completo incluyendo armado y limpieza",
+          "Disponible en Montevideo y Maldonado"
+        ]
+      },
+      "curatedEvents": {
+        "title": "Eventos Curados",
+        "description": "Celebraciones íntimas y eventos boutique donde el menú, el formato y la estética dialogan con el espíritu de la ocasión.",
+        "details": [
+          "Cumpleaños, aniversarios y momentos especiales",
+          "Encuentros corporativos",
+          "Celebraciones de temporada",
+          "Temáticas y conceptos personalizados"
+        ]
+      },
+      "sushi": {
+        "title": "Experiencia Sushi",
+        "description": "Experiencia omakase exclusiva con los mejores ingredientes y técnicas japonesas tradicionales, llevada a tu hogar.",
+        "details": [
+          "Experiencia de sushi bar en vivo",
+          "Ingredientes premium de temporada",
+          "Técnicas tradicionales",
+          "Formato de cena interactivo"
+        ]
+      },
+      "cookingClasses": {
+        "title": "Clases de Cocina Privadas",
+        "description": "Experiencias de cocina personalizadas y prácticas en la comodidad de tu hogar. Aprendé técnicas, recetas y el arte de recibir.",
+        "details": [
+          "Programa personalizado",
+          "Aprendizaje práctico",
+          "Recetas para llevar",
+          "Grupos de 2-8 participantes"
+        ]
+      }
+    },
+    "formats": {
+      "tagline": "Formatos de Menú",
+      "title": "Elegí tu formato",
+      "description": "Cada formato se puede personalizar completamente. Nos adaptamos a tus preferencias, requerimientos dietarios y el espíritu de tu ocasión.",
+      "basic": {
+        "title": "Formato Básico",
+        "description": "Una progresión clásica para encuentros íntimos",
+        "courses": ["Aperitivos", "Entradas frías y calientes", "Plato(s) principal(es)", "Postre"]
+      },
+      "tasting": {
+        "title": "Formato Degustación",
+        "description": "Un recorrido refinado a través de múltiples tiempos",
+        "courses": ["Amuse-bouche", "Entrada fría", "Entrada caliente", "Principal de mar", "Principal de tierra", "Pre-postre", "Postre"]
+      },
+      "cocktail": {
+        "title": "Formato Cocktail",
+        "description": "Perfecto para recepciones de pie y socializar",
+        "courses": ["Selección de finger food frío", "Selección de finger food caliente"]
+      },
+      "sushiBar": {
+        "title": "Sushi Bar",
+        "description": "Experiencia omakase interactiva",
+        "courses": ["Selección del chef", "Nigiri premium", "Rolls especiales", "Especiales de temporada"]
+      }
+    },
+    "process": {
+      "tagline": "Cómo Trabajamos",
+      "title": "De la idea a la experiencia",
+      "cta": "Diseñá Mi Experiencia",
+      "steps": {
+        "listen": {
+          "number": "01",
+          "title": "Escuchar",
+          "description": "Hablamos de tu idea, el contexto, la fecha, el espacio y los invitados."
+        },
+        "design": {
+          "number": "02",
+          "title": "Diseñar",
+          "description": "Proponemos un formato y menú a medida, alineado con la intención de tu evento."
+        },
+        "refine": {
+          "number": "03",
+          "title": "Refinar",
+          "description": "Nos adaptamos a preferencias, restricciones dietarias y detalles logísticos."
+        },
+        "execute": {
+          "number": "04",
+          "title": "Ejecutar",
+          "description": "Servicio preciso, estética curada y una experiencia impecable."
+        }
+      }
+    }
+  },
+  "menus": {
+    "hero": {
+      "tagline": "Menús de Ejemplo",
+      "title": "Cada menú es único",
+      "description": "Cada menú se diseña específicamente para tu evento, preferencias y temporada. Estos ejemplos representan nuestro estilo y enfoque, pero tu experiencia será completamente a medida."
+    },
+    "sample": {
+      "tagline": "Inspiración",
+      "title": "Menús de ejemplo",
+      "description": "Estos menús representan nuestro estilo culinario. Cada propuesta se elabora desde cero según tus preferencias, temporada y ocasión.",
+      "mediterranean": {
+        "title": "Noche Mediterránea",
+        "format": "Formato Degustación",
+        "courses": [
+          { "type": "Amuse-bouche", "dish": "Trío de hummus con pan artesanal" },
+          { "type": "Entrada Fría", "dish": "Burrata con tomates heritage y aceite de albahaca" },
+          { "type": "Entrada Caliente", "dish": "Brochette de pulpo con romesco" },
+          { "type": "Principal de Mar", "dish": "Lubina con hinojo y cítricos" },
+          { "type": "Principal de Tierra", "dish": "Cordero braseado con tabbouleh" },
+          { "type": "Pre-postre", "dish": "Dip de ricotta y limón con miel" },
+          { "type": "Postre", "dish": "Tiramisú clásico" }
+        ]
+      },
+      "modern": {
+        "title": "Elegancia Moderna",
+        "format": "Formato Básico",
+        "courses": [
+          { "type": "Aperitivos", "dish": "Selección de empanadas artesanales" },
+          { "type": "Entrada Fría", "dish": "Ensalada de estación con parmesano" },
+          { "type": "Entrada Caliente", "dish": "Paté de pato con compota de higos" },
+          { "type": "Plato Principal", "dish": "Lomo de res con zanahorias glaseadas" },
+          { "type": "Postre", "dish": "Fondant de chocolate con crema de vainilla" }
+        ]
+      },
+      "garden": {
+        "title": "Garden Party",
+        "format": "Formato Cocktail",
+        "courses": [
+          { "type": "Selección Fría", "dish": "Cucharitas de ceviche, trío de bruschetta, bocados de charcutería" },
+          { "type": "Selección Caliente", "dish": "Mini crab cakes, brochettes de cordero, arancini de hongos" },
+          { "type": "Final Dulce", "dish": "Surtido de postres miniatura" }
+        ]
+      }
+    },
+    "gallery": {
+      "tagline": "Nuestros Platos",
+      "title": "Una muestra de lo que creamos",
+      "cta": {
+        "description": "¿Listo para diseñar tu menú a medida? Contanos sobre tu evento y crearemos algo extraordinario.",
+        "button": "Diseñá Mi Experiencia"
+      },
+      "dishes": {
+        "hummus": "Hummus Clásico",
+        "lamb": "Cordero Braseado",
+        "salad": "Ensalada de Estación",
+        "tiramisu": "Tiramisú"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline": "Nosotros",
+      "title": "Un estudio de experiencias gastronómicas",
+      "description": "Nacido del deseo de transformar una comida en un momento intencional: íntimo, curado y memorable."
+    },
+    "story": {
+      "tagline": "Nuestra Historia",
+      "title": "Trabajamos desde el diseño",
+      "description1": "SePrivée es un estudio de experiencias gastronómicas. Nacido del deseo de transformar una comida en un momento intencional: íntimo, curado y memorable.",
+      "description2": "Trabajamos desde el diseño. Escuchamos, curamos y construimos propuestas a medida donde el menú, el formato y el servicio dialogan con el espíritu del encuentro.",
+      "description3": "Nuestro lenguaje es simple: producto, técnica, estética y hospitalidad.",
+      "quote": "Sofisticación sin exceso"
+    },
+    "values": {
+      "tagline": "Nuestros Valores",
+      "title": "Lo que nos guía",
+      "items": [
+        {
+          "title": "Diseño con Intención",
+          "description": "Cada detalle es considerado. Desde la primera conversación hasta el último bocado, diseñamos con propósito."
+        },
+        {
+          "title": "Atención al Detalle",
+          "description": "La diferencia está en los detalles. Nos obsesionamos con las pequeñas cosas que crean experiencias memorables."
+        },
+        {
+          "title": "Intimidad y Calidez",
+          "description": "Creamos espacios donde la conexión sucede naturalmente. Cálidos, acogedores y personales."
+        },
+        {
+          "title": "Producto de Calidad",
+          "description": "Seleccionamos los mejores ingredientes de temporada. La calidad no es negociable."
+        },
+        {
+          "title": "Experiencias a Medida",
+          "description": "No hay dos eventos iguales. Cada experiencia se crea específicamente para vos."
+        },
+        {
+          "title": "Hospitalidad Profesional",
+          "description": "Servicio impecable que anticipa necesidades sin interrumpir el momento."
+        }
+      ]
+    },
+    "faq": {
+      "tagline": "Preguntas Frecuentes",
+      "title": "Consultas comunes",
+      "cta": {
+        "description": "¿Tenés más preguntas? Nos encantaría escucharte.",
+        "button": "Contactanos"
+      },
+      "questions": [
+        {
+          "question": "¿Dónde operan?",
+          "answer": "Montevideo y Maldonado."
+        },
+        {
+          "question": "¿Cuántos invitados pueden acomodar?",
+          "answer": "Experiencias íntimas para 6 a 30 personas."
+        },
+        {
+          "question": "¿Todo es personalizado?",
+          "answer": "Sí. Cada propuesta se diseña según el evento, el espacio y las preferencias del cliente."
+        },
+        {
+          "question": "¿Ofrecen menús para retirar?",
+          "answer": "En ciertos casos. Solo cuando el formato nos permite mantener los estándares de calidad y presentación de SePrivée."
+        },
+        {
+          "question": "¿Incluyen vajilla y cristalería?",
+          "answer": "Principalmente trabajamos con lo disponible en el hogar del cliente. Si es necesario, podemos incluir equipamiento adicional según cada caso y presupuesto."
+        },
+        {
+          "question": "¿Pueden acomodar restricciones dietarias?",
+          "answer": "Sí. Diseñamos alternativas sin perder la coherencia del menú."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "tagline": "Contacto",
+      "title": "Diseñemos tu experiencia",
+      "description": "Contanos qué querés celebrar. Nosotros diseñamos la experiencia."
+    },
+    "form": {
+      "tagline": "Formulario de Consulta",
+      "title": "Contanos sobre tu evento",
+      "fields": {
+        "name": "Nombre",
+        "email": "Email",
+        "phone": "WhatsApp / Teléfono",
+        "city": "Ciudad",
+        "cityPlaceholder": "Seleccionar ciudad",
+        "date": "Fecha Tentativa",
+        "guests": "Número de Invitados",
+        "guestsPlaceholder": "Seleccionar rango",
+        "experienceType": "Tipo de Experiencia",
+        "experienceTypePlaceholder": "Seleccionar tipo",
+        "dietary": "Preferencias / Restricciones Dietarias",
+        "dietaryPlaceholder": "ej. vegetariano, sin gluten, alergias...",
+        "message": "Contanos sobre tu ocasión",
+        "messagePlaceholder": "¿Qué estás celebrando? ¿Algún pedido especial o idea?"
+      },
+      "submit": "Enviar Consulta",
+      "submitting": "Enviando...",
+      "success": "¡Gracias por tu consulta! Nos comunicaremos dentro de las próximas 24 horas.",
+      "error": "Error al enviar el mensaje. Por favor intentá de nuevo o contactanos directamente por WhatsApp."
+    },
+    "direct": {
+      "tagline": "Contacto Directo",
+      "title": "¿Preferís contactarnos directamente?",
+      "whatsapp": {
+        "title": "WhatsApp",
+        "number": "+598 95 038 477",
+        "note": "Respuesta más rápida"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "handle": "@seprivee.uy",
+        "note": "Mirá nuestro trabajo"
+      },
+      "email": {
+        "title": "Email",
+        "address": "hello@seprivee.com",
+        "note": "Para consultas detalladas"
+      },
+      "serviceAreas": {
+        "title": "Áreas de Servicio",
+        "description": "Operamos en {montevideo} y {maldonado}, llevando experiencias gastronómicas a medida a tu hogar o espacio privado."
+      }
+    },
+    "cities": {
+      "montevideo": "Montevideo",
+      "maldonado": "Maldonado",
+      "other": "Otra"
+    },
+    "experienceTypes": {
+      "privateDining": "Cena Privada",
+      "curatedEvent": "Evento Curado",
+      "sushiExperience": "Experiencia Sushi",
+      "cookingClass": "Clase de Cocina",
+      "other": "Otro"
+    },
+    "guestRanges": {
+      "6-10": "6-10 invitados",
+      "11-15": "11-15 invitados",
+      "16-20": "16-20 invitados",
+      "21-30": "21-30 invitados"
+    }
+  },
+  "footer": {
+    "tagline": "Studio Dining & Events",
+    "locations": "Montevideo | Maldonado",
+    "copyright": "{year} SePrivee. Todos los derechos reservados."
+  },
+  "common": {
+    "toast": {
+      "success": "Éxito",
+      "error": "Error",
+      "close": "Cerrar"
+    }
+  }
+}
