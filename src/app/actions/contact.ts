@@ -1,6 +1,7 @@
 "use server";
 
 import { Resend } from "resend";
+import ContactNotificationEmail from "@/components/emails/contact-notification-email";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -42,29 +43,7 @@ export async function submitContactForm(
       };
     }
 
-    // Format the email content
-    const emailContent = `
-New inquiry from SePrivée website
-
-Contact Information:
-- Name: ${data.name}
-- Email: ${data.email}
-- Phone/WhatsApp: ${data.phone || "Not provided"}
-
-Event Details:
-- City: ${data.city}
-- Tentative Date: ${data.date || "Not specified"}
-- Number of Guests: ${data.guests}
-- Type of Experience: ${data.experienceType || "Not specified"}
-
-Dietary Preferences/Restrictions:
-${data.dietaryRestrictions || "None specified"}
-
-Message:
-${data.message || "No additional message"}
-    `.trim();
-
-    // Send email using Resend
+    // Send email using Resend with React Email template
     const fromEmail = process.env.EMAIL_FROM || "noreply@seprivee.com";
     const { error } = await resend.emails.send({
       from: `SePrivée <${fromEmail}>`,
@@ -73,8 +52,18 @@ ${data.message || "No additional message"}
       //cc: ["alesotohof@gmail.com"],
       bcc: ["rapha.uy@rapha.uy"],
       replyTo: data.email,
-      subject: `New Inquiry: ${data.experienceType || "General"} - ${data.name}`,
-      text: emailContent,
+      subject: `Nueva Consulta: ${data.experienceType || "General"} - ${data.name}`,
+      react: ContactNotificationEmail({
+        name: data.name,
+        email: data.email,
+        phone: data.phone,
+        city: data.city,
+        date: data.date,
+        guests: data.guests,
+        experienceType: data.experienceType,
+        dietaryRestrictions: data.dietaryRestrictions,
+        message: data.message,
+      }),
     });
 
     if (error) {
