@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Container, Typography, Button, Divider } from "@/components/ui";
@@ -7,59 +8,33 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useTranslation } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
-type DishKey = "hummus" | "lamb" | "salad" | "tiramisu";
-
-const dishKeys: { key: DishKey; image: string }[] = [
-  { key: "hummus", image: "/images/menus/hummus.png" },
-  { key: "lamb", image: "/images/menus/lamb.png" },
-  { key: "salad", image: "/images/menus/salad.png" },
-  { key: "tiramisu", image: "/images/menus/tiramisu.png" },
+const galleryImages = [
+  "/images/menus/dish-12.jpg",
+  "/images/menus/dish-13.jpg",
+  "/images/menus/dish-14.jpg",
+  "/images/menus/dish-15.jpg",
+  "/images/menus/dish-16.jpg",
+  "/images/menus/dish-17.jpg",
+  "/images/menus/dish-18.jpg",
+  "/images/menus/dish-19.jpg",
+  "/images/menus/dish-20.jpg",
+  "/images/menus/dish-21.jpg",
 ];
-
-function DishCard({
-  dish,
-  index,
-}: {
-  dish: { image: string; title: string };
-  index: number;
-}) {
-  const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
-
-  return (
-    <div
-      ref={ref}
-      className={cn(
-        "group relative aspect-square overflow-hidden bg-[var(--color-pearl)] transition-all duration-700",
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      )}
-      style={{ transitionDelay: `${index * 100}ms` }}
-    >
-      <Image
-        src={dish.image}
-        alt={dish.title}
-        fill
-        className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
-        sizes="(max-width: 768px) 50vw, 25vw"
-      />
-      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-carbon)]/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="font-[family-name:var(--font-playfair)] text-[var(--color-pearl)] text-center">
-          {dish.title}
-        </p>
-      </div>
-    </div>
-  );
-}
 
 export function MenuGallery() {
   const t = useTranslation();
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation({
     threshold: 0.3,
   });
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const dishes = dishKeys.map((d) => ({
-    image: d.image,
-    title: t.menus.gallery.dishes[d.key],
-  }));
+  // Auto-advance carousel
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % galleryImages.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="bg-[var(--color-carbon)] py-24 lg:py-32">
@@ -85,11 +60,45 @@ export function MenuGallery() {
           </Typography>
         </div>
 
-        {/* Gallery Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-16">
-          {dishes.map((dish, index) => (
-            <DishCard key={index} dish={dish} index={index} />
-          ))}
+        {/* Carousel */}
+        <div className="relative mb-16 overflow-hidden">
+          {/* Main carousel track */}
+          <div className="flex gap-4 transition-transform duration-700 ease-out"
+            style={{ transform: `translateX(-${currentIndex * (100 / 3)}%)` }}
+          >
+            {/* Triple the images for seamless loop effect */}
+            {[...galleryImages, ...galleryImages, ...galleryImages].map((image, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-[calc(33.333%-11px)] md:w-[calc(25%-12px)] lg:w-[calc(20%-13px)] aspect-square relative overflow-hidden group"
+              >
+                <Image
+                  src={image}
+                  alt="Plato SePrivée"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Navigation dots */}
+          <div className="flex justify-center gap-2 mt-8">
+            {galleryImages.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentIndex(index)}
+                className={cn(
+                  "w-2 h-2 rounded-full transition-all duration-300 cursor-pointer",
+                  currentIndex === index
+                    ? "bg-[var(--color-gold)] w-6"
+                    : "bg-[var(--color-stone)]/50 hover:bg-[var(--color-stone)]"
+                )}
+                aria-label={`Ir a imagen ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
 
         {/* CTA */}

@@ -15,7 +15,7 @@ export function ExperiencesHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero/table-setup.jpg"
+          src="/images/hero/experiences-hero.jpg"
           alt="Elegant table setup"
           fill
           priority

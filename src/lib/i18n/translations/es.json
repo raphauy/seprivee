@@ -98,7 +98,7 @@
     "formats": {
       "tagline": "Formatos de Menú",
       "title": "Elegí tu formato",
-      "description": "Cada formato se puede personalizar completamente. Nos adaptamos a tus preferencias, requerimientos dietarios y el espíritu de tu ocasión.",
+      "description": "Cada formato se puede personalizar completamente. Nos adaptamos a tus preferencias, requerimientos alimenticios y el espíritu de tu ocasión.",
       "basic": {
         "title": "Formato Básico",
         "description": "Una progresión clásica para encuentros íntimos",
@@ -138,7 +138,7 @@
         "refine": {
           "number": "03",
           "title": "Refinar",
-          "description": "Nos adaptamos a preferencias, restricciones dietarias y detalles logísticos."
+          "description": "Nos adaptamos a preferencias, restricciones alimenticias y detalles logísticos."
         },
         "execute": {
           "number": "04",
@@ -162,23 +162,24 @@
         "title": "Noche Mediterránea",
         "format": "Formato Degustación",
         "courses": [
-          { "type": "Amuse-bouche", "dish": "Trío de hummus con pan artesanal" },
-          { "type": "Entrada Fría", "dish": "Burrata con tomates heritage y aceite de albahaca" },
-          { "type": "Entrada Caliente", "dish": "Brochette de pulpo con romesco" },
-          { "type": "Principal de Mar", "dish": "Lubina con hinojo y cítricos" },
-          { "type": "Principal de Tierra", "dish": "Cordero braseado con tabbouleh" },
-          { "type": "Pre-postre", "dish": "Dip de ricotta y limón con miel" },
-          { "type": "Postre", "dish": "Tiramisú clásico" }
+          { "type": "Amuse-bouche", "dish": "Bruschetta caponata" },
+          { "type": "Entrada Fría", "dish": "Berenjena a la llama con burrata y pesto" },
+          { "type": "Entrada Caliente", "dish": "Pincho de pulpo con alioli de pimentón" },
+          { "type": "Principal de Mar", "dish": "Pesca con jugo de sus espinas y crema de coliflor" },
+          { "type": "Principal de Tierra", "dish": "Cordero braseado en su jugo con cremoso de papa aromático" },
+          { "type": "Pre-postre", "dish": "Granita de frutos rojos, crema láctea y aceite de albahaca" },
+          { "type": "Postre", "dish": "Fruta de temporada flambé con helado" },
+          { "type": "Café", "dish": "*Opción de maridaje de vinos" }
         ]
       },
       "modern": {
         "title": "Elegancia Moderna",
         "format": "Formato Básico",
         "courses": [
-          { "type": "Aperitivos", "dish": "Selección de empanadas artesanales" },
-          { "type": "Entrada Fría", "dish": "Ensalada de estación con parmesano" },
-          { "type": "Entrada Caliente", "dish": "Paté de pato con compota de higos" },
-          { "type": "Plato Principal", "dish": "Lomo de res con zanahorias glaseadas" },
+          { "type": "Aperitivos", "dish": "Dip de tomates secos y morrón asado, pinchos de mozzarella, tomates secos y olivas. Selección de panes" },
+          { "type": "Entrada Fría", "dish": "Tiradito de salmón con salsa mango" },
+          { "type": "Entrada Caliente", "dish": "Arancini de hongos y parmesano" },
+          { "type": "Plato Principal", "dish": "Lomo de res en salsa de pimienta con zanahorias glaseadas" },
           { "type": "Postre", "dish": "Fondant de chocolate con crema de vainilla" }
         ]
       },
@@ -186,9 +187,9 @@
         "title": "Garden Party",
         "format": "Formato Cocktail",
         "courses": [
-          { "type": "Selección Fría", "dish": "Cucharitas de ceviche, trío de bruschetta, bocados de charcutería" },
-          { "type": "Selección Caliente", "dish": "Mini crab cakes, brochettes de cordero, arancini de hongos" },
-          { "type": "Final Dulce", "dish": "Surtido de postres miniatura" }
+          { "type": "Selección Fría", "dish": "Tabla de quesos y embutidos, trío de bruschettas mediterráneas, chupitos de salmorejo, pinchos caprese" },
+          { "type": "Selección Caliente", "dish": "Pinchos de camarones fritos, pinchos de pollo cítrico con alioli, risotto de hongos" },
+          { "type": "Final Dulce", "dish": "Selección de vasitos dulces: tiramisú, trifle de frutos rojos, lemon pie, choco bomb" }
         ]
       }
     },
@@ -280,7 +281,7 @@
           "answer": "Principalmente trabajamos con lo disponible en el hogar del cliente. Si es necesario, podemos incluir equipamiento adicional según cada caso y presupuesto."
         },
         {
-          "question": "¿Pueden acomodar restricciones dietarias?",
+          "question": "¿Pueden acomodar restricciones alimenticias?",
           "answer": "Sí. Diseñamos alternativas sin perder la coherencia del menú."
         }
       ]
@@ -306,7 +307,7 @@
         "guestsPlaceholder": "Seleccionar rango",
         "experienceType": "Tipo de Experiencia",
         "experienceTypePlaceholder": "Seleccionar tipo",
-        "dietary": "Preferencias / Restricciones Dietarias",
+        "dietary": "Preferencias / Restricciones Alimenticias",
         "dietaryPlaceholder": "ej. vegetariano, sin gluten, alergias...",
         "message": "Contanos sobre tu ocasión",
         "messagePlaceholder": "¿Qué estás celebrando? ¿Algún pedido especial o idea?"

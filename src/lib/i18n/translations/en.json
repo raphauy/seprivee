@@ -162,23 +162,24 @@
         "title": "Mediterranean Evening",
         "format": "Tasting Format",
         "courses": [
-          { "type": "Amuse-bouche", "dish": "Hummus trio with artisan bread" },
-          { "type": "Cold Starter", "dish": "Burrata with heirloom tomatoes & basil oil" },
-          { "type": "Hot Starter", "dish": "Octopus brochette with romesco" },
-          { "type": "Seafood Main", "dish": "Sea bass with fennel & citrus" },
-          { "type": "Meat Main", "dish": "Braised lamb with tabbouleh" },
-          { "type": "Pre-dessert", "dish": "Lemon ricotta dip with honey" },
-          { "type": "Dessert", "dish": "Classic tiramisu" }
+          { "type": "Amuse-bouche", "dish": "Caponata bruschetta" },
+          { "type": "Cold Starter", "dish": "Flame-grilled eggplant with burrata and pesto" },
+          { "type": "Hot Starter", "dish": "Octopus skewer with paprika aioli" },
+          { "type": "Seafood Main", "dish": "Catch of the day with bone jus and cauliflower cream" },
+          { "type": "Meat Main", "dish": "Braised lamb in its jus with aromatic potato cream" },
+          { "type": "Pre-dessert", "dish": "Red berry granita, dairy cream and basil oil" },
+          { "type": "Dessert", "dish": "Seasonal fruit flambé with ice cream" },
+          { "type": "Coffee", "dish": "*Wine pairing option available" }
         ]
       },
       "modern": {
         "title": "Modern Elegance",
         "format": "Basic Format",
         "courses": [
-          { "type": "Appetizers", "dish": "Selection of artisanal empanadas" },
-          { "type": "Cold Starter", "dish": "Seasonal salad with shaved parmesan" },
-          { "type": "Hot Starter", "dish": "Duck pâté with fig compote" },
-          { "type": "Main Course", "dish": "Beef tenderloin with glazed carrots" },
+          { "type": "Appetizers", "dish": "Sun-dried tomato and roasted pepper dip, mozzarella skewers with sun-dried tomatoes and olives. Bread selection" },
+          { "type": "Cold Starter", "dish": "Salmon tiradito with mango sauce" },
+          { "type": "Hot Starter", "dish": "Mushroom and parmesan arancini" },
+          { "type": "Main Course", "dish": "Beef tenderloin in pepper sauce with glazed carrots" },
           { "type": "Dessert", "dish": "Chocolate fondant with vanilla cream" }
         ]
       },
@@ -186,9 +187,9 @@
         "title": "Garden Party",
         "format": "Cocktail Format",
         "courses": [
-          { "type": "Cold Selection", "dish": "Ceviche spoons, bruschetta trio, charcuterie bites" },
-          { "type": "Hot Selection", "dish": "Mini crab cakes, lamb skewers, mushroom arancini" },
-          { "type": "Sweet Finish", "dish": "Miniature dessert assortment" }
+          { "type": "Cold Selection", "dish": "Cheese and charcuterie board, Mediterranean bruschetta trio, salmorejo shots, caprese skewers" },
+          { "type": "Hot Selection", "dish": "Fried shrimp skewers, citrus chicken skewers with aioli, mushroom risotto" },
+          { "type": "Sweet Finish", "dish": "Sweet cup selection: tiramisu, red berry trifle, lemon pie, choco bomb" }
         ]
       }
     },

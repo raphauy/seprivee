@@ -15,7 +15,7 @@ export function ContactHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero/chef-serving.jpg"
+          src="/images/hero/contact-hero.jpg"
           alt="Chef serving guests"
           fill
           priority

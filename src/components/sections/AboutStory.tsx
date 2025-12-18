@@ -27,7 +27,7 @@ export function AboutStory() {
             )}
           >
             <Image
-              src="/images/services/curated-events.jpg"
+              src="/images/hero/about-story.jpg"
               alt="SePrivée event setup"
               fill
               className="object-cover"

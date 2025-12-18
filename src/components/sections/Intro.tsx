@@ -27,7 +27,7 @@ export function Intro() {
             )}
           >
             <Image
-              src="/images/hero/intimate-dining.jpg"
+              src="/images/hero/philosophy.jpg"
               alt="Intimate dining experience"
               fill
               className="object-cover"

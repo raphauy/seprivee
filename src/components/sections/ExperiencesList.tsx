@@ -12,7 +12,7 @@ const experienceKeys: { id: string; key: ExperienceKey; image: string }[] = [
   {
     id: "private-dining",
     key: "privateDining",
-    image: "/images/services/private-dining-new.jpg",
+    image: "/images/services/private-dining.jpg",
   },
   {
     id: "curated-events",
